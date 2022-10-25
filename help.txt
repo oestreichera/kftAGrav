@@ -1,0 +1,20 @@
+This folder contains a simple Python script (main.py) accompanying:
+(insert paper URL/DOI).
+The script is designed to calculate non-linear density fluctuation power
+spectra given the expansion function and gravitational constant suggested by an
+alternative theory of gravity.
+
+As provided the script calculates the powers spectra for the two models of the
+generalized proca theories shown in the paper. It should be easily adaptable
+to any other model by providing an expansion function and gravitational
+constant for the desired model.
+
+To adapt the script the user should provide a data file containing the expansion
+function and gravitational constant for the desired alternative gravity model and
+import this file in the script (see comments in file main.py).  
+The expansion function and gravitational constant are expected to be provided
+as a function of the scale factor a from a=0.001 to a=1.0 in 128 table steps
+logarithmically spaced. The gravitational constant is additionally expected to be 
+normalized to the reference GR value.
+
+To excecute the script run: python main.py
